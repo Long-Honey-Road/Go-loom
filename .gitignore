@@ -1,3 +1,43 @@
-/coverage.out
+# go and etc
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
 *.test
+
+*.out
+coverage.txt
+
+# Go workspaces
+# Удалите эти строки, если вы хотите отслеживать go.work в репозитории
+#go.work
+#go.work.sum
+
+# Папка с зависимостями (раскомментируйте, если не используете вендоринг в Git)
+# vendor/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# ide
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
+Thumbs.db
+
+# llm
+.superpowers/
+.claude/
+
+# hide
+*.local
+*.hide
